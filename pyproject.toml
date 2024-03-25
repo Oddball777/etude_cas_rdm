@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "etude-cas-rdm"
+version = "0.1.0"
+description = ""
+authors = ["Gustave Coulombe <magikgus@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+csv-scavenger = "^1.0.5"
+jupyter = "^1.0.0"
+graphinglib = {git = "https://github.com/GraphingLib/GraphingLib.git"}
+shapely = "^2.0.3"
+pydantic = "^2.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
